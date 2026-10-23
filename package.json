@@ -1,6 +1,7 @@
 {
   "name": "agentwikis-mcp",
-  "version": "0.2.2",
+  "version": "0.2.3",
+  "mcpName": "io.github.tonbistudio/agentwikis-mcp",
   "description": "MCP server for Agent Wikis (agentwikis.com) — maintained, agent-readable knowledge bases with calibrated search and provenance. Read-only; free without a key, and an Agent Wikis Pro key adds the XL tier.",
   "type": "module",
   "bin": { "agentwikis-mcp": "index.js" },
