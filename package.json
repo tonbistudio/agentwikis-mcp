@@ -1,6 +1,6 @@
 {
   "name": "agentwikis-mcp",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "MCP server for Agent Wikis (agentwikis.com) — maintained, agent-readable knowledge bases with calibrated search and provenance. Read-only; free without a key, and an Agent Wikis Pro key adds the XL tier.",
   "type": "module",
   "bin": { "agentwikis-mcp": "index.js" },
@@ -11,6 +11,6 @@
   "homepage": "https://agentwikis.com/for-agents",
   "keywords": ["mcp", "model-context-protocol", "knowledge-base", "llms-txt", "agents", "documentation"],
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0"
+    "@modelcontextprotocol/sdk": "^1.32.0"
   }
 }

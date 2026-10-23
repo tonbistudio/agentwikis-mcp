@@ -3,7 +3,7 @@
   "name": "io.github.tonbistudio/agentwikis-mcp",
   "title": "Agent Wikis",
   "description": "Maintained, agent-readable knowledge bases with calibrated search and provenance. Free without a key; an Agent Wikis Pro key adds the XL tier.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "repository": {
     "url": "https://github.com/tonbistudio/agentwikis-mcp",
     "source": "github"
@@ -13,7 +13,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "agentwikis-mcp",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "transport": {
         "type": "stdio"
       },

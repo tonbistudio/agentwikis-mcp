@@ -21,7 +21,7 @@ const BASE = (process.env.AGENTWIKIS_URL || 'https://agentwikis.com').replace(/\
 // Treat that as no key, so a free-tier user isn't told a key was sent.
 const RAW_KEY = (process.env.AGENTWIKIS_API_KEY || '').trim();
 const API_KEY = /^\$\{[^}]*\}$/.test(RAW_KEY) ? '' : RAW_KEY;
-const VERSION = '0.2.1';
+const VERSION = '0.2.2';
 
 const server = new Server(
   { name: 'agentwikis', version: VERSION },
