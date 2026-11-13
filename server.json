@@ -3,31 +3,20 @@
   "name": "io.github.tonbistudio/agentwikis-mcp",
   "title": "Agent Wikis",
   "description": "Maintained, agent-readable knowledge bases with calibrated search and provenance. Pro key adds XL.",
-  "version": "0.2.3",
+  "version": "0.3.0",
+  "websiteUrl": "https://agentwikis.com/for-agents",
   "repository": {
     "url": "https://github.com/tonbistudio/agentwikis-mcp",
     "source": "github"
   },
-  "packages": [
+  "remotes": [
     {
-      "registryType": "npm",
-      "registryBaseUrl": "https://registry.npmjs.org",
-      "identifier": "agentwikis-mcp",
-      "version": "0.2.3",
-      "transport": {
-        "type": "stdio"
-      },
-      "environmentVariables": [
+      "type": "streamable-http",
+      "url": "https://agentwikis.com/mcp",
+      "headers": [
         {
-          "name": "AGENTWIKIS_URL",
-          "description": "Base URL of the Agent Wikis instance to query. Defaults to https://agentwikis.com; set to point at a self-hosted/private instance.",
-          "isRequired": false,
-          "isSecret": false,
-          "default": "https://agentwikis.com"
-        },
-        {
-          "name": "AGENTWIKIS_API_KEY",
-          "description": "Agent Wikis Pro API key. When set, open_wiki, search, and read_document include the Pro (XL) tier; without it the server serves the free tier only.",
+          "name": "Authorization",
+          "description": "Optional. \"Bearer aw_your_key\" with an Agent Wikis Pro key adds the XL wiki pages, skills, agent tools and routines. Without it the free tier works.",
           "isRequired": false,
           "isSecret": true
         }
